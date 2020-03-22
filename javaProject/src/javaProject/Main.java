@@ -14,7 +14,7 @@ public class Main {
         int suma = 0;
 
         for (int i = 0; i < n; i++) {
-            suma += (n+n^2)/2;
+            suma = (n+n^2)/2;
         }
 
         System.out.println(suma);
